@@ -45,3 +45,13 @@ BOARD_HAVE_NEW_QCOM_CSDCLIENT :=
 # TWRP
 TW_THEME := portrait_hdpi
 TW_BRIGHTNESS_PATH := /sys/devices/i2c-0/0-0036/leds/lm3533-lcd-bl/brightness
+
+# MultiROM
+MR_INPUT_TYPE := type_b
+MR_INIT_DEVICES := device/sony/yuga/multirom/init_devices.c
+MR_DPI := xhdpi
+MR_DPI_FONT := 340
+MR_FSTAB := device/sony/fusion3-common/rootdir/twrp.fstab
+MR_USE_MROM_FSTAB := true
+MR_KEXEC_MEM_MIN := 0x85000000
+MR_RECOVERY_IN_BOOTIMG := true
