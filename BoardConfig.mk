@@ -56,3 +56,4 @@ MR_FSTAB := device/sony/fusion3-common/rootdir/twrp.fstab
 MR_USE_MROM_FSTAB := true
 MR_KEXEC_MEM_MIN := 0x85000000
 MR_RECOVERY_IN_BOOTIMG := true
+MR_DEVICE_VARIANTS := C6602 C6603 C6606 yuga
