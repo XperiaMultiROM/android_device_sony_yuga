@@ -17,10 +17,12 @@ const char *mr_init_devices[] = {
 	"/sys/class/input/input0",
 	"/sys/class/input/input1",
 	"/sys/class/input/input2",
+	"/sys/class/input/input6",
 	"/sys/class/input/input8",
 	"/sys/class/input/event0",
 	"/sys/class/input/event1",
 	"/sys/class/input/event2",
+	"/sys/class/input/event6",
 	"/sys/class/input/event8",
 
 	// adb
